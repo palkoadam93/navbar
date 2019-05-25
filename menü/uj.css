@@ -1,0 +1,82 @@
+#link{
+	text-align:center;
+	}
+
+
+
+.fk1{							/*első almenü*/
+	display:none;				/*nem jelenik meg*/
+	width:100px;				/*szélesség*/
+	top:63px;					/*lefelé tolás*/
+	font-style:Arial;
+	}
+	
+.fk2{							/*második almenü*/
+	display:none;				/*nem jelenik meg*/
+	width:100px;				/*szélesség*/
+	top:63px;					/*lefelé tolás*/
+	left:158px;					/*jobbra tolás*/
+	}
+	
+.fk3{							/*harmadik almenü*/
+	display:none;				/*nem jelenik meg*/
+	width:100px;				/*szélesség*/
+	top:63px;					/*lefelé tolás*/
+	left:308px;					/*jobbra tolás*/
+	}
+
+.fk4{							/*harmadik almenü*/
+	display:none;				/*nem jelenik meg*/
+	width:100px;				/*szélesség*/
+	top:63px;					/*lefelé tolás*/
+	left:458px;					/*jobbra tolás*/
+	}
+	
+	
+
+	
+#f1:hover .fk1{					/*kurzor f1-en esetén az fk1*/
+	display:block;				/*megjelenik*/
+	position:absolute;			/*abszolút érvényű*/
+	}
+	
+#f1:hover .fk2{					/*kurzor f1-en esetén az fk2*/
+	display:block;				/*megjelenik*/
+	position:absolute;			/*abszolút érvényű*/
+	}
+	
+#f1:hover .fk3{					/*kurzor f1-en esetén az fk3*/
+	display:block;				/*megjelenik*/
+	position:absolute;			/*abszolút érvényű*/
+	}
+	
+#f1:hover .fk4{					/*kurzor f1-en esetén az fk4*/
+	display:block;				/*megjelenik*/
+	position:absolute;			/*abszolút érvényű*/
+	}
+
+	
+	
+#link a:link,
+#link a:visited{					/*#link unvisited vagy visited linkjére vonatkozó szabványok*/
+	position:relative;				/*viszonylagos érvényű*/
+	float:left;						/*egymás után, sorban*/
+	padding-top:5px;				/*szöveg lefelé tolása*/
+	height:50px;					/*magasság*/
+	width:150px;					/*szélesség*/
+	background-color:grey;			/*háttérszín*/
+	color:white;					/*betűszín*/
+	text-decoration:none;
+	}
+	
+#link a:hover,
+#link a:active{						/*#link kurzoros vagy aktív linkjére vonatkozó szabványok*/
+	position:relative;				/*viszonylagos érvényű*/
+	float:left;						/*egymás után, sorban*/
+	padding-top:5px;				/*szöveg lefelé tolása*/
+	height:50px;
+	width:150px;
+	background-color: orange;
+	color:grey;
+	text-decoration:none;
+	}

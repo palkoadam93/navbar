@@ -1,0 +1,17 @@
+.menu{										/*az egész*/
+    background-color: green;					/*háttérszín*/
+	}
+	
+.menu ul{									/*lista*/
+	padding: 0;									/*nincs tolás; rögtön a képernyő szélétől kezdi*/
+	list-style-type: none;
+	}
+ 
+.menu ul li{								/*listaelem*/
+    display: inline;							/*sorba*/
+	}
+ 
+.menu ul li a{								/*link*/
+    float: left;								/*egymás után rakja és összefüggő blokkba rendezi; a li külalakjához idomítja az ul külalakját*/
+    padding: 10.5px 11px;						/*10.5px előre és 11px lefelé tolás*/
+	}

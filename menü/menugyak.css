@@ -1,0 +1,17 @@
+.menu{										/*az egész*/
+    width: 100%;								/*szélesség*/
+    background-color: grey;						/*háttérszín*/
+	}
+	
+.menu ul{
+	padding:0;
+}
+	
+.menu ul li{								/*listaelem*/
+    display: inline;							/*sorba*/
+	float: left;
+	}
+	
+.menu ul ul{
+	visibility: hidden;
+}
